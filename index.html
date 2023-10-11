@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Centering a image/text</title>
+    </head>
+    <body>
+        <header>
+         <h1 class="h1">PXY MEDIA PVT LTD</h1>
+        </header>
+        <br><br>
+        <div class="main">
+            <h1>Welcome Into Our Family</h1>
+            <h1 class="h1">UNLOCK THE MAGIC!</h1>
+            <h2>PXY MEDIA is here to enchant your digital world. Let's embrak on an adventure of creativity!</h2>
+            <h2>The services offered by our<br> company are below</h2>
+            <p>1.Digital Marketing<br>
+            2.Mobile and Web Development<br>
+            3.Search Engine Optimization<br>
+            4.Content Management<br>
+            5.Pay Per Click Advertising<br>
+            6.Social Media Management</p>
+        <div>
+             <img src="PXY%20MEDIA.png" id="im1">
+            </div>
+        </div> 
+        <br>
+        <center>
+        <div class="main1">
+           <h1>We serves Information Technology services with Super creativity and Best quality</h1>
+            <h2>THANK YOU FOR CHOOSING OUR COMPANY AS A BEST CHOICE.</h2>
+            </div></center>
+        <br>
+        <h1 class="h1">MEDIA QUERIES</h1>
+        <br><br>
+            <div class="main2">
+                <img src="thank%20you%20image.jpg" id="im2">
+            </div>
+
+    </body>
+    <style>
+        body{
+            background-color: darkgoldenrod;
+        }
+        .main{
+            width: 800px;
+            height: 600px;
+            border: 3px solid red;
+            background-color: #6da832;
+        }
+        
+     #im1{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: 400;
+            left: 500;
+            transform: translate(-50%,-50%); 
+         border: 3px solid deeppink;
+        }
+        .main1{
+            width:800px;
+            height: 200px;
+            border: 3px solid blue;
+            padding: 10px;
+            margin: 10px;
+            background-color: #32a89b;
+        }
+        .main2{
+            width:600px;
+            height: 600px;
+            border: 3px solid green;
+            background-color: #c242a4; 
+        }
+        #im2{
+            border: 3px solid brown;
+            margin: 20px;
+            padding: 10px;
+        }
+        @media screen and (max-width: 700){
+            #im2{
+                width:100px;
+                height: 100px;
+            }
+        }
+        @media screen and (min-width: 701) and (max-width: 1200){
+            #im2{
+                width: 750px;
+                height: 750px;
+            }
+        }
+        .h1{
+            text-transform: uppercase;
+            text-decoration: underline;
+            background-color:#aeb528;
+            color: blue;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</html>
